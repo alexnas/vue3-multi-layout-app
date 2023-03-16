@@ -1,10 +1,10 @@
-<script lang="ts" setup></script>
+<script setup lang="ts"></script>
 
 <template>
   <v-container class="text-center">
-    <h1>Home Page</h1>
+    <h1>About Page</h1>
     <div>
-      <v-btn class="pa-3" to="/about"> Go to About Page </v-btn>
+      <v-btn class="pa-3" to="/"> Go to Home Page </v-btn>
     </div>
     <div>
       <v-btn color="primary" class="ma-3" to="/profile">Go to Provile Page</v-btn>
